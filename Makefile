@@ -1,4 +1,4 @@
-USER=tronpaul
+USER=gotbadger
 
 build:
 	docker build -t ${USER}/znc .
