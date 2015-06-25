@@ -14,7 +14,7 @@ Run the [ZNC](http://znc.in) IRC Bouncer in a Docker container.
 To retain your ZNC settings between runs, you will need to bind a directory
 from the host to `/znc-data` in the container. For example:
 
-    docker run -d -p 6667 --name znc --volumes-from znc-data gotbagder/znc
+    docker run -d -p 6667 --name znc --volumes-from znc-data gotbadger/znc
 
 This will download the image if needed, and create a default config file in
 your data directory unless you already have a config in place. The default
